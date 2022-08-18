@@ -38,5 +38,3 @@ while True:
 
 con.commit()
 con.close()
- aa
-a
