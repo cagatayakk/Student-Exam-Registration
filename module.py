@@ -1,9 +1,9 @@
 import sqlite3
 import os
 
-ROOT_DIR =os.path.dirname(os.path.realpath(__file__))
-myPath=os.path.join(ROOT_DIR,'StudentExamRegistration.db')
-myPath = r'%s'%myPath
+#ROOT_DIR =os.path.dirname(os.path.realpath(__file__))
+#myPath=os.path.join(ROOT_DIR,'StudentExamRegistration.db')
+#myPath = r'%s'%myPath
 
 con=sqlite3.connect(myPath)
 cursor = con.cursor()
